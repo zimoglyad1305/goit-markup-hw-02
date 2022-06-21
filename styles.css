@@ -53,16 +53,19 @@ header {
     letter-spacing: 0.02em;
 }
 .logo{
+    color: var(--blue-hov);
     text-decoration: none;
-    color: var(--text-color-sec);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-.accent{
-    color: var(--blue-hov);
+.accent {
+    color: var(--text-color-sec);
+}
+.accent-footer {
+    color: var(--background-btn-non);
 }
 
 nav a {
@@ -141,10 +144,10 @@ nav a {
     font-size: 16px;
     line-height: 1.19;
 }
-/*footer
+/*footer*/
 footer {
     background-color: var(--background-hero);
-}*/
+}
 address a {
     color: var(--text-adress);
 }
