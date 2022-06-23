@@ -39,10 +39,9 @@ ul {
   color: var(--blue-hov);
 }
 body {
-  background-color: var(--background-prime);
+  background-color: var(--background-text-btn-hov);
   color: var(--text-color-prime);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -78,6 +77,14 @@ nav a {
 }
 /*main*/
 .hero {
+  background-color: var(--background-hero);
+  /* position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px; */
+}
+.hero-title {
   color: var(--background-text-btn-hov);
   font-weight: 900;
   font-size: 44px;
@@ -86,15 +93,9 @@ nav a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /*position: absolute;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;*/
-  background: var(--background-hero);
 }
 
-.hero button {
+button.btn-link {
   color: var(--background-text-btn-hov);
   font-size: 16px;
   font-weight: 700;
@@ -105,23 +106,22 @@ nav a {
   background-color: var(--blue-hov);
   cursor: pointer;
 
-  /*position: absolute;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 200px;*/
+  /* position: absolute; */
+  height: 50px;
+  /* left: 700px;
+  top: 430px; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px; */
 }
 .advantage h3 {
   color: var(--text-color-sec);
-  font-weight: 700;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
 }
-.work h2 {
+.work h2,
+.team h2 {
   color: var(--text-color-sec);
   font-weight: 700;
   font-size: 36px;
@@ -129,12 +129,6 @@ nav a {
 }
 .team {
   background-color: var(--background-btn-non);
-}
-.team h2 {
-  color: var(--text-color-sec);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
 }
 .team h3 {
   color: var(--text-color-sec);
@@ -152,9 +146,11 @@ footer {
 }
 address a {
   color: var(--text-adress);
+  font-style: normal;
 }
 address .map {
   color: var(--background-text-btn-hov);
+  font-style: normal;
 }
 .footer-list .link:hover,
 .footer-list .link:focus {
@@ -181,25 +177,22 @@ main.portfolio {
 .btn-list button:hover,
 .btn-list button:focus {
     background-color: var(--blue-hov);
-    color: var(--text-color-sec);
+    color: var(--background-text-btn-hov);
 }
 button.btn-link:hover,
 button.btn-link:focus {
     background-color: var(--blue-hov);
-    color: var(--text-color-sec);
+    color: var(--background-text-btn-hov);
 }
   
 .gallery h3 {
   color: var(--text-color-sec);
-  font-weight: 700;
   letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 2;
 }
 .gallery p {
   color: var(--text-color-prime);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
