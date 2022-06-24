@@ -19,6 +19,15 @@
   --text-color-prime: #757575;
   --text-adress: rgba(255, 255, 255, 0.6);
 }
+
+body {
+  background-color: var(--background-text-btn-hov);
+  color: var(--text-color-prime);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 .header,
 .navigation,
 .adress,
@@ -45,14 +54,6 @@ ul {
 .adress .link:hover,
 .adress .link:focus {
   color: var(--blue-hov);
-}
-body {
-  background-color: var(--background-text-btn-hov);
-  color: var(--text-color-prime);
-  font-family: Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /* header */
 .header {
