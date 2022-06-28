@@ -68,7 +68,7 @@ ul {
   align-items: center;
   height: 80px;
 }
-.logo {
+.logo-header {
   color: var(--blue-hov);
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -186,12 +186,24 @@ button.btn-link {
 /*footer*/
 footer {
   background-color: var(--background-hero);
+  height: 252px;
 }
 .footer-list{
   margin-left: 215px;
   padding-left: 0;
+  margin-top: 111px;
 }
-
+.footer-logo{
+  color: var(--blue-hov);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-left: 215px;
+  margin-top: 60px;
+}
 address a {
   color: var(--text-adress);
   font-style: normal;
@@ -209,7 +221,8 @@ main.portfolio {
   background-color: var(--background-text-btn-hov);
 }
 .btn-list {
-  margin-left: 495px;
+  /* margin-left: 495px; */
+  justify-content: center;
   margin-top: 100px;
   height: 38px;
   margin-bottom: 50px;
@@ -243,6 +256,12 @@ button.btn-link:focus {
     color: var(--background-text-btn-hov);
 }
   /* Gallery of post */
+.gallery{
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto 215px;
+  margin-bottom: 94px;
+}
 .gallery h3 {
   color: var(--text-color-sec);
   letter-spacing: 0.06em;
@@ -254,5 +273,10 @@ button.btn-link:focus {
   font-size: 16px;
   line-height: 1.88;
 }
-
+.gallery-item{
+  margin-right: 30px;
+}
+.gallery-item:nth-child(3n + 3) {
+  margin-right: 0;
+}
 
