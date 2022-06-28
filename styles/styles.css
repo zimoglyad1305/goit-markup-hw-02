@@ -27,6 +27,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 1600px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 .header,
 .navigation,
@@ -95,7 +98,6 @@ nav a {
 .header ul.adress {
   padding-left: 330px;
 }
-/*main*/
 
 /* hero */
 .hero {
