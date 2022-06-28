@@ -208,8 +208,15 @@ address .map {
 main.portfolio {
   background-color: var(--background-text-btn-hov);
 }
+.btn-list {
+  margin-left: 495px;
+  margin-top: 100px;
+  height: 38px;
+  margin-bottom: 50px;
+}
 .btn-list button.btn {
-  background-color: var(--background-text-btn-hov);
+  background-color: var(--background-btn-non);
+  color: var(--text-color-sec);
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -217,6 +224,9 @@ main.portfolio {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
+  margin-right: 8px;
+  padding: 6px 22px;
 }
 .btn-list button.current-btn {
   background-color: var(--blue-hov);
@@ -232,7 +242,7 @@ button.btn-link:focus {
     background-color: var(--blue-hov);
     color: var(--background-text-btn-hov);
 }
-  
+  /* Gallery of post */
 .gallery h3 {
   color: var(--text-color-sec);
   letter-spacing: 0.06em;
