@@ -185,9 +185,10 @@ nav a {
   line-height: 1.19;
 }
 /*footer*/
-footer {
+.footer {
   background-color: var(--background-hero);
-  height: 252px;
+  margin-top: 94px;
+  /* height: 252px; */
 }
 .footer-list{
   margin-left: 215px;
@@ -202,11 +203,18 @@ footer {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  /* display: flex; */
   margin-left: 215px;
   /* margin-top: 60px; */
-  padding-bottom: 161px;
-  align-items: center;
 }
+/* .block-footer-logo{ */
+  /* margin-left: 215px; */
+  /* margin-top: 60px; */
+  /* padding-bottom: 161px; */
+  /* align-items: center; */
+  /* display: block; */
+  /* margin-bottom: 121px; */
+/* } */
 address a {
   color: var(--text-adress);
   font-style: normal;
