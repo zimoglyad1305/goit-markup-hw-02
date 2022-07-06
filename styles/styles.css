@@ -27,9 +27,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 1600px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
 }
 .header,
 .navigation,
@@ -67,6 +64,7 @@ ul {
   letter-spacing: 0.02em;
   align-items: center;
   height: 80px;
+  border-bottom: 1px solid gray;
 }
 .logo-header {
   color: var(--blue-hov);
@@ -143,6 +141,19 @@ nav a {
 /* .advantage{
   margin: 774px 270px;
 } */
+
+.hiden{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .advantage-list,
 .work-list,
 .team-list{
@@ -153,7 +164,7 @@ nav a {
 .work li {
   margin-left: 30px;  
 }
-.advantage h3 {
+.advantage h2 {
   color: var(--text-color-sec);
   text-transform: uppercase;
   font-size: 14px;
@@ -223,8 +234,8 @@ address .map {
   color: var(--background-text-btn-hov);
   font-style: normal;
 }
-.footer-list .link:hover,
-.footer-list .link:focus {
+.footer-list .link-footer:hover,
+.footer-list .link-footer:focus {
   color: var(--blue-hov);
 }
 /*---P O R T F O L I O---*/
@@ -252,15 +263,9 @@ main.portfolio {
   margin-right: 8px;
   padding: 6px 22px;
 }
-.btn-list button.current-btn {
-  background-color: var(--blue-hov);
-  color: var(--background-text-btn-hov);
-}
 .btn-list button:hover,
-.btn-list button:focus {
-    background-color: var(--blue-hov);
-    color: var(--background-text-btn-hov);
-}
+.btn-list button:focus,
+.btn-list button.current-btn,
 button.btn-link:hover,
 button.btn-link:focus {
     background-color: var(--blue-hov);
